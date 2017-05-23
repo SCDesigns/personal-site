@@ -1,5 +1,5 @@
 /* Entypo - Link Icons */
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://cdn.jsdelivr.net/font-entypo/0.1/desktop/Entypo-Social.ttf);
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .button {
-	display: block;
+	display: inline-block;
 }
 .button a{
 	color: #FFFFFF !important;
@@ -87,72 +87,6 @@ a:hover {
 .container-fluid {
 	padding: 0 !important;
 }
-
-.laptop {
-	width: 35vw;
-}
-.phone {
-	width: 12.5vw;
-	margin: 0 2.5vw;
-}
-
-.project {
-	text-align: center;
-	z-index: 1000;
-	opacity: 0;
-	padding: 5em;
-	transition: opacity 2s ease-in-out;
-	-moz-transition: opacity 2s ease-in-out;
-	-webkit-transition: opacity 2s ease-in-out;
-	-o-transition: opacity 2s ease-in-out;
-}
-.project.fade-in {
-    opacity: 1;
-    transition: opacity 2s ease-in-out;
-    -moz-transition: opacity 2s ease-in-out;
-    -webkit-transition: opacity 2s ease-in-out;
-    -o-transition: opacity 2s ease-in-out;
-    /*transform: translateY(0);*/
-}
-.project2 {
-	text-align: center;
-	z-index: 1000;
-	opacity: 0;
-	padding: 5em;
-	transition: opacity 2s ease-in-out;
-	-moz-transition: opacity 2s ease-in-out;
-	-webkit-transition: opacity 2s ease-in-out;
-	-o-transition: opacity 2s ease-in-out;
-}
-.project2.fade-in {
-    opacity: 1;
-    transition: opacity 2s ease-in-out;
-    -moz-transition: opacity 2s ease-in-out;
-    -webkit-transition: opacity 2s ease-in-out;
-    -o-transition: opacity 2s ease-in-out;
-    /*transform: translateY(0);*/
-}
-
-.shareicon2  {
-	  border: 0.25em solid #FFFFFF;
-	  color: #FFF;
-	  border-radius: 50%;
-      	  display: inline-block;
-  	  font-size: 1em;
- 	  padding: 1em 1.25em;
-      background: transparent;
-      transition: all 0.2s ease;
-      text-decoration: none !important;
-      margin: 1.75em 1.25em;
-    }
-.shareicon2:hover {
-	 border: 4px solid #FFFFFF;
-	 background: #000000;
-	 color: #FFF;
-         top: -2px;
-         transition: all 0.2s ease;
-      }
-
 
 /* Media Queries*/
 @media only screen and (max-width: 767px) {
